@@ -1,0 +1,84 @@
+/* Container styles */
+.encriptador-desktop {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;
+  }
+  
+  /* White rectangle styles */
+  .encriptador-desktop__rectangle {
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+  }
+  
+  /* Text input styles */
+  .encriptador-desktop__input {
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+  }
+  
+  /* Button container styles */
+  .encriptador-desktop__button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+  }
+  
+  /* Button styles */
+  .encriptador-desktop__button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    flex: none;
+    flex-grow: 0;
+  }
+  
+  /* First button styles */
+  .encriptador-desktop__button--primary {
+    background: #0A3871;
+    color: #FFFFFF;
+    order: 0;
+  }
+  
+  /* Second button styles */
+  .encriptador-desktop__button--secondary {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+    order: 1;
+  }
+  
